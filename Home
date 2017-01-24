@@ -1,2 +1,17 @@
-basic stuff
-test add
+<!DOCTYPE html>
+
+<head>
+	<title>
+    	Terrible Treats - Home Page
+    </title>
+</head>
+
+<body>
+	<h1>
+    	Terrible Treats
+    </h1>
+    
+    <h2>
+    	Desserts For Your Worst Enemies
+    </h2>
+</body>
