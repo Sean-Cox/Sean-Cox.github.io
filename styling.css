@@ -1,3 +1,8 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .flex-container {
   display: -webkit-flex;
   display: flex;
@@ -5,25 +10,54 @@
 
 #header {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: darkgrey;
+  text-align: center;
+  
 }
+#title{
+    font: 80px bold;
+    margin: 1px;
+  
+  }
+  
+  #subTitle{
+    font: 25px bold;
+    margin: 1px;
+  }
 
 #navCon {
   flex-direction: row;
   width: 100%;
   height: 100%;
+  background-color: lightgrey;
 }
 
 #navBar {
   flex-direction: column;
-  width: 10%;
-  height: 600px;
+  width: 100px;
+  height: 200px;
   background-color: red;
+  min-width: 100px; 
+}
+
+.navButton {
+  align-self: center;
+  text-align: center;
+  background-color: darkgrey;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 5%;
+  line-height:35px;
+  height: 20%;
+  width: 80%;
+}
+
+a {
+  color: black;
 }
 
 #contentSection {
   width 80%;
   height: 90%;
-  background-color: lightgrey;
 }
