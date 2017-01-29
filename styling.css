@@ -1,6 +1,7 @@
 .flexBox {
   display: -webkit-flex;
   display: flex;
+  background-color: lightgrey;
 }
 
 #header {
