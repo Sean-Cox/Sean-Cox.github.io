@@ -10,6 +10,11 @@
   background-color: darkgrey;
 }
 
+#navCon {
+  width: 100%;
+  height: 100%;
+}
+
 #navBar {
   width: 10%;
   height: 600px;
