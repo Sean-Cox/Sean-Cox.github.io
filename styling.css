@@ -79,3 +79,8 @@ a {
 #ingredients tr:hover {
   background-color: darkgrey;
 }
+
+img {
+  width: 500px;
+  height: auto;
+}
