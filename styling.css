@@ -16,6 +16,7 @@
 }
 
 #navBar {
+  flex-direction: column;
   width: 10%;
   height: 600px;
   background-color: red;
