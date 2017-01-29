@@ -62,3 +62,20 @@ a {
   height: 90%;
   text-align: center;
 }
+#ingredients {
+  border: 2px solid black;
+  border-collapse: collapse;
+  vertical-align: center;
+  text-align: left;
+  width: 40%;
+
+}
+
+#ingredients th, td {
+  padding: 5px;
+  border-bottom: 1px solid darkred;
+}
+
+#ingredients tr:hover {
+  background-color: darkgrey;
+}
